@@ -1,5 +1,3 @@
-// DB = Dhrzkii77PluCwVN
-
 // API Documentation
 import swaggerui from 'swagger-ui-express'
 import swaggerDoc from 'swagger-jsdoc'
