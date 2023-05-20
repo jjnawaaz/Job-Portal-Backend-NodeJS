@@ -1,5 +1,5 @@
 import express from 'express'
-import userAuth from '../middlewares/authmiddleware.js'
+import { userAuth } from '../middlewares/authmiddleware.js'
 import { updateUser } from '../controllers/userController.js'
 
 //router object 
