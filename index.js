@@ -6,7 +6,6 @@ import swaggerDoc from 'swagger-jsdoc'
 import express from 'express'
 import 'express-async-errors'
 import dotenv from 'dotenv';
-import colors from 'colors';
 import cors from 'cors';
 import morgan from 'morgan'
 
@@ -81,5 +80,3 @@ app.listen(PORT, () => {
     console.log(`Server Started in ${process.env.DEV_MODE} mode on PORT no ${PORT} `.bgWhite.black)
 })
 
-
-// Test Push 
